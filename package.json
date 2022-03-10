@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AsiaKabacinska/stronaDoPracy/issues"
   },
-  "homepage": "https://github.com/AsiaKabacinska/stronaDoPracy#readme"
+  "homepage": "https://github.com/AsiaKabacinska/stronaDoPracy#readme",
+  "dependencies": {
+    "fontawesome-free": "^1.0.4"
+  }
 }
