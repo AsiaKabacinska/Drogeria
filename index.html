@@ -14,26 +14,68 @@
     ></script>
   </head>
   <body>
-    <h1 class="headings">
-      Drogeria e-kabatek
-      <i class="fa-solid fa-venus"></i>
-      <!-- dlaczego nie dziala? -->
-      <div class="wyszukiwarka">
-        <input type="text" placeholder="Czego szukasz?" />
+    <div class="menu">
+      <div class="menu__top">
+        <h1>
+          Drogeria e-kabatek
+          <i class="fa-solid fa-venus"></i>
+        </h1>
+      </div>
+      <div class="menu__top menu__top--searching">
+        <input
+          class="searching__input"
+          type="text"
+          placeholder="Czego szukasz?"
+        />
         <button class="searching__btn">
           <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-    </h1>
-
-    </button>
-      <nav class="navigation">
-      <ul>
-        <li>Kobiety</li>
-        <li>Mężczyźni</li>
-        <li>Na prezent</li>
-        <li>Oferty specjalne</li>
+        </button>
+      </div>
+      <div class="menu__top--item basketWrapper">
+        <i class="fa-solid fa-basket-shopping"></i>
+      </div>
+    </div>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li><a href="kobiety.html">Kobiety</a></li>
+        <li><a href="mezczyzni.html"></a>Mężczyźni</li>
+        <li><a href="ofertySpecjalne.html"></a>Oferty specjalne</li>
         <li>Promocje</li>
       </ul>
     </nav>
+    <img class="img__home" src="img/eye-shadow-gf8f97b890_1920.jpg" alt="" />
+    <img class="img__home" src="img/chanel-gcd1db7087_1920.jpg" alt="" />
+    <img class="img__home" src="img/brushes-g3bdc58ac5_1920.jpg" alt="" />
+    <footer class="footer">
+        <section class="firma">
+          <h1 class="firma__heading">FIRMA</h1>
+          <ul class="firma__lista">
+          <li href="">KONTAKT</li>
+          <li href="">O NAS</li>
+          <li href="">REGULAMIN</li>
+          <li href="">POLITYKA PRYWATNOŚCI</li>
+          <li href="">ODSTĄPIENIE OD UMOWY</li>
+        </ul>
+        </section>
+        <section class="firma ">
+          <h1 class="firma__heading">ZAKUPY</h1>
+          <ul class="firma__lista">
+          <li href="">DOSTAWA I PŁATNOŚĆ</li>
+          <li href="">REKLAMACJE I ZWROTY</li>
+          <li href="">PRODUKTY ZA PUNKTY</li>
+          <li href="">ODBIÓR OSOBISTY</li>
+          <li href="">STAN ZAMÓWIENIA</li>
+        </section>
+      <section class="firma__kontakt">
+        <ul class="firma__kontakt--lista">
+          <li>
+            <i class="fa-solid fa-square-phone"></i>Kontakt z nami: 802 225 773
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>drogeria ekabatek@gmail.com
+          </li>
+        </ul>
+      </section>
+    </footer>
   </body>
 </html>
