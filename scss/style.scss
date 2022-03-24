@@ -167,11 +167,16 @@ a:hover {
 }
 
 @media (max-width: 920px) {
-  li {
+  body {
+    max-width: 100%;
     display: block;
-    font-family: serif;
-    font-weight: 500;
-    margin: 15px;
+    box-sizing: border-box;
+  }
+  li {
+    // display: block;
+    // font-family: serif;
+    // font-weight: 500;
+    // margin: 15px;
   }
   .menu__top {
     position: absolute;
@@ -204,7 +209,7 @@ a:hover {
     display: none;
   }
   .header {
-    min-height: 80px;
+    // min-height: 80px;
     position: fixed;
     top: 0px;
     width: 100%;

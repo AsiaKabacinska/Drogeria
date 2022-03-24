@@ -137,11 +137,10 @@ a:hover {
   display: none; }
 
 @media (max-width: 920px) {
-  li {
+  body {
+    max-width: 100%;
     display: block;
-    font-family: serif;
-    font-weight: 500;
-    margin: 15px; }
+    box-sizing: border-box; }
   .menu__top {
     position: absolute;
     top: 50px;
@@ -165,7 +164,6 @@ a:hover {
   .searching__btn {
     display: none; }
   .header {
-    min-height: 80px;
     position: fixed;
     top: 0px;
     width: 100%;
