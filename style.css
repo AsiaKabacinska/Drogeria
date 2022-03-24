@@ -156,6 +156,7 @@ a:hover {
   .fa-basket-shopping {
     display: none; }
   .navigation {
+    padding: 16p;
     display: none; }
   .searching__input {
     display: none; }
@@ -165,4 +166,15 @@ a:hover {
     min-height: 60px;
     position: fixed;
     top: 0px;
-    width: 100%; } }
+    width: 100%;
+    background-color: red; }
+  .hamburger {
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    right: 16px;
+    top: 16px; }
+  main {
+    margin: 60px auto 0; }
+  .navigation--open {
+    display: block; } }

@@ -14,70 +14,81 @@
     ></script>
   </head>
   <body>
-    <div class="menu">
-      <header>
+    <main>
+      <div class="menu">
         <h1 class="heading__home">
           Drogeria e-kabatek
-          <i class="fa-solid fa-venus heading__home__logo"></i>
+          <!-- <i class="fa-solid fa-venus heading__home__logo"></i> -->
         </h1>
-      </header>
-      <div class="menu__top">
-        <input
-          class="searching__input"
-          type="text"
-          placeholder="Czego szukasz?"
-        />
-        <button class="searching__btn">
-          <i class="fa-solid fa-magnifying-glass"></i>
+
+        <div class="menu__top">
+          <input
+            class="searching__input"
+            type="text"
+            placeholder="Czego szukasz?"
+          />
+          <button class="searching__btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <div class="menu__top--item basketWrapper">
+        <i class="fa-solid fa-basket-shopping"></i>
+      </div>
+      <header class="header">
+        <button class="hamburger hamburger--js">
+          <i class="fa-solid fa-bars"></i>
         </button>
-      </div>
-    </div>
-    <div class="menu__top--item basketWrapper">
-      <i class="fa-solid fa-basket-shopping"></i>
-    </div>
-    <nav class="navigation navigation--open">
-      <ul class="navigation__list">
-        <li><a href="kobiety.html">Kobiety</a></li>
-        <li><a href="mezczyzni.html">Mężczyźni</a></li>
-        <li><a href="promki.html">Oferty specjalne</a></li>
-        <li><a href="promki.html">Promocje</a></li>
-      </ul>
-    </nav>
-    <div class="hamburger hamburger--js"><i class="fa-solid fa-bars"></i></div>
-    <img class="img__home" src="img/eye-shadow-gf8f97b890_1920.jpg" alt="" />
-    <img class="img__home" src="img/chanel-gcd1db7087_1920.jpg" alt="" />
-    <img class="img__home" src="img/brushes-g3bdc58ac5_1920.jpg" alt="" />
-    <footer class="footer">
-      <section class="firma">
-        <h1 class="firma__heading">FIRMA</h1>
-        <ul class="firma__lista">
-          <li><a href="przekierowaniaFooter.html">KONTAKT</a></li>
-          <li><a href="przekierowaniaFooter.html">O NAS</a></li>
-          <li><a href="przekierowaniaFooter.html">REGULAMIN</a></li>
-          <li><a href="przekierowaniaFooter.html">POLITYKA PRYWATNOŚCI</a></li>
-          <li><a href="przekierowaniaFooter.html">ODSTĄPIENIE OD UMOWY</a></li>
-        </ul>
-      </section>
-      <section class="firma">
-        <h1 class="firma__heading">ZAKUPY</h1>
-        <ul class="firma__lista">
-          <li><a href="przekierowaniaFooter.html">DOSTAWA I PŁATNOŚĆ</a></li>
-          <li><a href="przekierowaniaFooter.html">REKLAMACJE I ZWROTY</a></li>
-          <li><a href="przekierowaniaFooter.html">PRODUKTY ZA PUNKTY</a></li>
-          <li><a href="przekierowaniaFooter.html">ODBIÓR OSOBISTY</a></li>
-          <li><a href="przekierowaniaFooter.html">STAN ZAMÓWIENIA</a></li>
-        </ul>
-      </section>
-      <div class="firma__kontakt">
-        <ul class="firma__kontakt firma__kontakt--lista">
-          <li>
-            <i class="fa-solid fa-square-phone"></i>Kontakt z nami: 802 225 773
-          </li>
-          <li>
-            <i class="fa-solid fa-envelope"></i>drogeria ekabatek@gmail.com
-          </li>
-        </ul>
-      </div>
-    </footer>
+        <nav class="navigation navigation--js">
+          <ul class="navigation__list">
+            <li><a href="kobiety.html">Kobiety</a></li>
+            <li><a href="mezczyzni.html">Mężczyźni</a></li>
+            <li><a href="promki.html">Oferty specjalne</a></li>
+            <li><a href="promki.html">Promocje</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <img class="img__home" src="img/eye-shadow-gf8f97b890_1920.jpg" alt="" />
+      <img class="img__home" src="img/chanel-gcd1db7087_1920.jpg" alt="" />
+      <img class="img__home" src="img/brushes-g3bdc58ac5_1920.jpg" alt="" />
+      <footer class="footer">
+        <section class="firma">
+          <h1 class="firma__heading">FIRMA</h1>
+          <ul class="firma__lista">
+            <li><a href="przekierowaniaFooter.html">KONTAKT</a></li>
+            <li><a href="przekierowaniaFooter.html">O NAS</a></li>
+            <li><a href="przekierowaniaFooter.html">REGULAMIN</a></li>
+            <li>
+              <a href="przekierowaniaFooter.html">POLITYKA PRYWATNOŚCI</a>
+            </li>
+            <li>
+              <a href="przekierowaniaFooter.html">ODSTĄPIENIE OD UMOWY</a>
+            </li>
+          </ul>
+        </section>
+        <section class="firma">
+          <h1 class="firma__heading">ZAKUPY</h1>
+          <ul class="firma__lista">
+            <li><a href="przekierowaniaFooter.html">DOSTAWA I PŁATNOŚĆ</a></li>
+            <li><a href="przekierowaniaFooter.html">REKLAMACJE I ZWROTY</a></li>
+            <li><a href="przekierowaniaFooter.html">PRODUKTY ZA PUNKTY</a></li>
+            <li><a href="przekierowaniaFooter.html">ODBIÓR OSOBISTY</a></li>
+            <li><a href="przekierowaniaFooter.html">STAN ZAMÓWIENIA</a></li>
+          </ul>
+        </section>
+        <div class="firma__kontakt">
+          <ul class="firma__kontakt firma__kontakt--lista">
+            <li>
+              <i class="fa-solid fa-square-phone"></i>Kontakt z nami: 802 225
+              773
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>drogeria ekabatek@gmail.com
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
