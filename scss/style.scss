@@ -166,7 +166,7 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   li {
     display: block;
     font-family: serif;
@@ -191,8 +191,11 @@ a:hover {
     display: none;
   }
   .navigation {
-    padding: 16p;
+    padding: 16px;
     display: none;
+  }
+  .navigation--open {
+    display: block;
   }
   .searching__input {
     display: none;
@@ -201,23 +204,23 @@ a:hover {
     display: none;
   }
   .header {
-    min-height: 60px;
+    min-height: 80px;
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: red;
+    background-color: #f2e9e4;
   }
   .hamburger {
     position: absolute;
     display: block;
-    font-size: 30px;
-    right: 16px;
+    font-size: 40px;
+    right: 26px;
     top: 16px;
+    background-color: transparent;
+    border-radius: 40%;
+    border: none;
   }
   main {
-    margin: 60px auto 0;
-  }
-  .navigation--open {
-    display: block;
+    margin: 80px auto 0;
   }
 }
