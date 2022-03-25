@@ -113,15 +113,9 @@ a:hover {
   cursor: pointer; }
   .firma__heading {
     align-content: center; }
-    .firma__heading__lista {
-      flex-direction: column; }
-      .firma__heading__lista__kontakt {
-        display: block;
-        flex-direction: column;
-        font-size: 20px; }
-        .firma__heading__lista__kontakt__kontakt--lista {
-          flex-direction: column;
-          justify-content: flex-end; }
+    .firma__heading__lista__kontakt {
+      display: block;
+      font-size: 20px; }
 
 .fa-square-phone {
   font-size: 50px;
@@ -183,4 +177,10 @@ a:hover {
     border-radius: 40%;
     border: none; }
   main {
-    margin: 80px auto 0; } }
+    margin: 80px auto 0; }
+  .firma__kontakt {
+    display: block; } }
+
+@media (min-width: 921px) {
+  .fa-basket-shopping {
+    display: none; } }

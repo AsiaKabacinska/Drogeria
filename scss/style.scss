@@ -156,14 +156,13 @@ a:hover {
   &__heading {
     align-content: center;
     &__lista {
-      flex-direction: column;
+      // flex-direction: column;
       &__kontakt {
         display: block;
-        flex-direction: column;
+        // flex-direction: column;
         font-size: 20px;
+
         &__kontakt--lista {
-          flex-direction: column;
-          justify-content: flex-end;
         }
       }
     }
@@ -250,5 +249,13 @@ a:hover {
   }
   main {
     margin: 80px auto 0;
+  }
+  .firma__kontakt {
+    display: block;
+  }
+}
+@media (min-width: 921px) {
+  .fa-basket-shopping {
+    display: none;
   }
 }
