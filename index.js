@@ -6,3 +6,10 @@ hamburger.addEventListener("click", () => {
   console.log("AAAA " + nav);
   nav.classList.toggle("navigation--open");
 });
+
+const womanMakeup = document.querySelector(".woman__makeup");
+
+womanMakeup.addEventListener("hover", () => {
+  womanMakeup.innerHTML = "MAKIJAŻ";
+  womanMakeup.classList.add(".heading__woman");
+});
