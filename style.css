@@ -143,6 +143,12 @@ a:hover {
   border-radius: 20%;
   margin: 20px; }
 
+.form__heading {
+  font-family: serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
 @media (max-width: 920px) {
   body {
     max-width: 100%;
