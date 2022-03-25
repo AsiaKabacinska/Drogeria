@@ -135,6 +135,14 @@ a:hover {
 .hamburger {
   display: none; }
 
+.fa-basket-shopping {
+  display: none; }
+
+.img__form {
+  width: 50%;
+  border-radius: 20%;
+  margin: 20px; }
+
 @media (max-width: 920px) {
   body {
     max-width: 100%;
@@ -180,7 +188,3 @@ a:hover {
     margin: 80px auto 0; }
   .firma__kontakt {
     display: block; } }
-
-@media (min-width: 921px) {
-  .fa-basket-shopping {
-    display: none; } }
