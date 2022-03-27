@@ -159,6 +159,21 @@ a:hover {
   left: 60%;
   top: 60%; }
 
+label {
+  display: block;
+  margin: 10px;
+  font-size: 20px; }
+
+.form__item {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px; }
+
+.textArea {
+  width: 420px;
+  height: 80px;
+  border-radius: 10px; }
+
 @media (max-width: 920px) {
   body {
     max-width: 100%;
