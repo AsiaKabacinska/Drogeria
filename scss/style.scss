@@ -201,6 +201,19 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+// .img__form {
+//   position: relative;
+// }
+.img__form {
+  position: relative;
+}
+.formularz {
+  display: block;
+  position: absolute;
+  letter-spacing: 2px;
+  left: 60%;
+  top: 60%;
+}
 
 @media (max-width: 920px) {
   body {
@@ -267,6 +280,4 @@ a:hover {
   .firma__kontakt {
     display: block;
   }
-}
-@media (max-width: 1269px) {
 }
