@@ -74,18 +74,41 @@ li {
 ul {
   display: inline-block; }
 
-.woman {
+.wybor {
+  position: relative;
   display: inline-block;
-  width: 30%;
-  border-radius: 10px;
-  margin: 20px 20px auto;
-  cursor: pointer; }
-  .woman:hover {
+  width: 100%;
+  box-sizing: border-box; }
+  .wybor__item {
+    position: relative;
+    width: 30%;
+    height: auto;
+    margin: 20px 20px auto;
+    cursor: pointer;
+    border-radius: 10px; }
+    .wybor__item img {
+      width: 100%;
+      border-radius: inherit; }
+    .wybor__item--img {
+      width: 100%;
+      border-radius: inherit; }
+    .wybor__item--heading {
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      width: 20px;
+      margin: 20px auto;
+      font-size: 40px;
+      color: black;
+      text-align: center;
+      text-transform: uppercase;
+      display: none;
+      z-index: 3; }
+      .wybor__item--heading--open {
+        display: block; }
+  .wybor__item:hover {
     color: #f2e9e4;
     opacity: 0.5; }
-
-.heading__woman {
-  text-align: center; }
 
 .img__home {
   display: inline-block;
@@ -165,13 +188,14 @@ label {
   font-size: 20px; }
 
 .form__item {
-  width: 200px;
+  width: 340px;
   height: 60px;
+  line-height: 60%;
   border-radius: 10px; }
 
 .textArea {
-  width: 420px;
-  height: 80px;
+  width: 430px;
+  height: 120px;
   border-radius: 10px; }
 
 @media (max-width: 920px) {

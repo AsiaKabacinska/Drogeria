@@ -7,9 +7,14 @@ hamburger.addEventListener("click", () => {
   nav.classList.toggle("navigation--open");
 });
 
-const womanMakeup = document.querySelector(".woman__makeup");
-
-womanMakeup.addEventListener("hover", () => {
-  womanMakeup.innerHTML = "MAKIJAŻ";
-  womanMakeup.classList.add(".heading__woman");
+const wyborItems = document.querySelectorAll("div.wybor__item");
+wyborItems.forEach((wyborItem) => {
+  wyborItem.addEventListener("mouseenter", (e) => {
+    let heading = e.target.querySelector(".wybor__item--heading");
+    heading.classList.toggle("wybor__item--heading--open");
+  });
+  wyborItem.addEventListener("mouseleave", (e) => {
+    let heading = e.target.querySelector(".wybor__item--heading");
+    heading.classList.toggle("wybor__item--heading--open");
+  });
 });
