@@ -26,6 +26,8 @@ body {
     font-size: 35px;
     cursor: pointer;
     margin: 30px; }
+    .navigation__list--chosen {
+      text-decoration: underline; }
 
 li {
   display: inline-block;

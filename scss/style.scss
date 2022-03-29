@@ -28,6 +28,10 @@ body {
     font-size: 35px;
     cursor: pointer;
     margin: 30px;
+
+    &--chosen {
+      text-decoration: underline;
+    }
   }
 }
 li {
@@ -317,6 +321,7 @@ label {
     padding: 16px;
     display: none;
   }
+
   .navigation--open {
     display: block;
   }
