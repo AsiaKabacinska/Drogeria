@@ -18,3 +18,8 @@ wyborItems.forEach((wyborItem) => {
     heading.classList.toggle("wybor__item--heading--open");
   });
 });
+
+const drogeria = document.querySelector(".heading__home");
+drogeria.addEventListener("click", () => {
+  window.location.pathname = "index.html";
+});

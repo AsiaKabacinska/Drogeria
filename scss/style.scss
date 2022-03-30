@@ -14,7 +14,6 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: #ffffff;
   font-family: "Sansita Swashed";
   background-color: #f2e9e4;
   color: #22223b;
@@ -48,6 +47,7 @@ li {
   font-size: 40px;
   margin: 20px;
   position: relative;
+  cursor: pointer;
 
   // &__logo {
   //   position: absolute;

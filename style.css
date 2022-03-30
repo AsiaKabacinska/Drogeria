@@ -12,7 +12,6 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: #ffffff;
   font-family: "Sansita Swashed";
   background-color: #f2e9e4;
   color: #22223b; }
@@ -42,7 +41,8 @@ li {
   font-weight: 700;
   font-size: 40px;
   margin: 20px;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
 
 .menu {
   position: relative; }
