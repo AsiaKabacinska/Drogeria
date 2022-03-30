@@ -214,6 +214,15 @@ label {
     text-align: center;
     margin: 30px auto; }
 
+.produkty {
+  display: flex;
+  height: 230px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 60px; }
+  .produkty__sklep {
+    max-width: 20%; }
+
 @media (max-width: 920px) {
   body {
     max-width: 100%;

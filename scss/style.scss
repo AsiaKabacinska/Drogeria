@@ -305,6 +305,17 @@ label {
     margin: 30px auto;
   }
 }
+.produkty {
+  display: flex;
+  height: 230px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 60px;
+
+  &__sklep {
+    max-width: 20%;
+  }
+}
 
 // .wrapper__img {
 //   box-sizing: border-box;
