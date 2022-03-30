@@ -205,7 +205,7 @@ a:hover {
 }
 .footer {
   display: flex;
-  margin-top: 26px;
+  margin-top: 70px;
 }
 .firma {
   font-size: 6px;
@@ -307,13 +307,23 @@ label {
 }
 .produkty {
   display: flex;
-  height: 230px;
-  flex-direction: row;
+  height: 250px;
+  flex-flow: row wrap;
   justify-content: space-around;
-  margin-bottom: 60px;
 
-  &__sklep {
+  &__item {
     max-width: 20%;
+    display: block;
+
+    &--image {
+      max-width: 100%;
+    }
+  }
+  &__headings {
+    display: block;
+    font-family: arial;
+    text-align: center;
+    margin: 20px;
   }
 }
 

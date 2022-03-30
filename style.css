@@ -128,7 +128,7 @@ a:hover {
 
 .footer {
   display: flex;
-  margin-top: 26px; }
+  margin-top: 70px; }
 
 .firma {
   font-size: 6px;
@@ -216,12 +216,19 @@ label {
 
 .produkty {
   display: flex;
-  height: 230px;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 60px; }
-  .produkty__sklep {
-    max-width: 20%; }
+  height: 250px;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  .produkty__item {
+    max-width: 20%;
+    display: block; }
+    .produkty__item--image {
+      max-width: 100%; }
+  .produkty__headings {
+    display: block;
+    font-family: arial;
+    text-align: center;
+    margin: 20px; }
 
 @media (max-width: 920px) {
   body {
