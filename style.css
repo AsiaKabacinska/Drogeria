@@ -128,7 +128,7 @@ a:hover {
 
 .footer {
   display: flex;
-  margin-top: 70px; }
+  margin-top: 15%; }
 
 .firma {
   font-size: 6px;
@@ -216,19 +216,24 @@ label {
 
 .produkty {
   display: flex;
-  height: 250px;
-  flex-flow: row wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  flex-flow: row wrap; }
   .produkty__item {
     max-width: 20%;
-    display: block; }
+    height: 250px; }
     .produkty__item--image {
       max-width: 100%; }
   .produkty__headings {
-    display: block;
     font-family: arial;
-    text-align: center;
-    margin: 20px; }
+    margin-bottom: 5%;
+    position: relative; }
+  .produkty__btn {
+    border: 2px solid black;
+    position: absolute;
+    font-family: arial;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 20%; }
 
 @media (max-width: 920px) {
   body {
