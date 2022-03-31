@@ -23,3 +23,21 @@ const drogeria = document.querySelector(".heading__home");
 drogeria.addEventListener("click", () => {
   window.location.pathname = "index.html";
 });
+
+//koszyk
+
+const ceny = document.getElementsByClassName("produkty__btn");
+const koszyk = document.getElementById("koszyk");
+let ogolnaCena = 0;
+let item = 0;
+
+for (let i = 0; i < ceny.length; i++) {
+  ceny[i].addEventListener("click", dodajDoKoszyka);
+}
+
+function dodajDoKoszyka() {
+  let cena = parseFloat(this.value) + ogolnaCena;
+  item++;
+  koszyk.innerHTML = `${cena} Ilosc ${item}`;
+  ogolnaCena += parseFloat(this.value);
+}

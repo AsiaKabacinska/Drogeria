@@ -50,25 +50,38 @@ li {
 .menu__top {
   position: absolute;
   top: 10px;
-  left: 70%;
+  left: 40%;
   border-radius: 15%; }
 
 .searching__input {
-  width: 250px;
-  height: 40px;
+  position: absolute;
+  width: 280px;
+  height: 50px;
   border-radius: 20px; }
 
 .searching__btn {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px; }
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 290px;
+  border-radius: 20px;
+  cursor: pointer; }
 
 .fa-basket-shopping {
   position: absolute;
   font-size: 30px;
-  top: 35px;
+  top: 30px;
   right: 80px;
   cursor: pointer; }
+
+.koszyk {
+  display: inline-block; }
+
+.koszyk__heading {
+  top: 60px;
+  margin-left: 200px;
+  z-index: 2;
+  font-family: serif; }
 
 .text {
   display: inline-block; }
@@ -160,9 +173,6 @@ a:hover {
 .hamburger {
   display: none; }
 
-.fa-basket-shopping {
-  display: none; }
-
 .img__form {
   width: 50%;
   border-radius: 20%;
@@ -217,7 +227,8 @@ label {
 .produkty {
   display: flex;
   justify-content: space-around;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  margin: 5%; }
   .produkty__item {
     max-width: 20%;
     height: 250px; }
@@ -226,14 +237,15 @@ label {
   .produkty__headings {
     font-family: arial;
     margin-bottom: 5%;
-    position: relative; }
+    position: relative;
+    margin: 0; }
   .produkty__btn {
     border: 2px solid black;
     position: absolute;
     font-family: arial;
     background-color: #f2e9e4;
     cursor: pointer;
-    margin-top: 20%;
+    margin-top: 320px;
     width: 10%;
     height: 7%;
     align-content: center;
@@ -241,6 +253,12 @@ label {
     text-transform: uppercase; }
     .produkty__btn:hover {
       background-color: #ffffff; }
+
+.cosmetic__heading {
+  text-align: center;
+  font-family: serif;
+  font-size: 60px;
+  font-weight: 500; }
 
 @media (max-width: 920px) {
   body {
@@ -258,8 +276,6 @@ label {
     display: block;
     width: 100%;
     margin: 10px auto; }
-  .fa-basket-shopping {
-    display: none; }
   .navigation {
     padding: 16px;
     display: none; }
