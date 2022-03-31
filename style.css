@@ -233,7 +233,10 @@ label {
     font-family: arial;
     background-color: white;
     cursor: pointer;
-    margin-top: 20%; }
+    margin-top: 20%;
+    width: 10%;
+    height: 10%;
+    align-content: center; }
 
 @media (max-width: 920px) {
   body {
