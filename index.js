@@ -35,9 +35,12 @@ for (let i = 0; i < ceny.length; i++) {
   ceny[i].addEventListener("click", dodajDoKoszyka);
 }
 
-function dodajDoKoszyka() {
-  let cena = parseFloat(this.value) + ogolnaCena;
+function dodajDoKoszyka(event) {
+  let cenaProduktu = parseFloat(event.target.value);
+  ogolnaCena += cenaProduktu;
   item++;
-  koszyk.innerHTML = `${cena} Ilosc ${item}`;
-  ogolnaCena += parseFloat(this.value);
+
+  //wpisz summary
+  const basketSummary = koszyk.querySelector(".basket__summary");
+  basketSummary.innerHTML = `Ilosc ${item}, wartość: ${ogolnaCena} PLN`;
 }

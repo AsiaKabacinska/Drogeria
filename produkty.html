@@ -16,11 +16,13 @@
   <body>
     <main>
       <div class="menu">
-        <h1 class="heading__home">
-          Drogeria e-kabatek
-          <!-- <i class="fa-solid fa-venus heading__home__logo"></i> -->
-        </h1>
-        <div class="menu__top">
+        <div class="menu menu__item">
+          <h1 class="heading__home">
+            Drogeria e-kabatek
+            <!-- <i class="fa-solid fa-venus heading__home__logo"></i> -->
+          </h1>
+        </div>
+        <div class="menu menu__item menu__top">
           <input
             class="searching__input"
             type="text"
@@ -30,9 +32,11 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
-        <div id="koszyk">
-          <i class="fa-solid fa-basket-shopping"></i>
-          <h2 class="koszyk__heading">Koszyk</h2>
+        <div class="menu menu__item menu__item__basket" id="koszyk">
+          <div class="basket">
+            <span class="basket__summary">0 PLN</span>
+            <i class="fa-solid fa-basket-shopping basket__icon"></i>
+          </div>
         </div>
       </div>
 
