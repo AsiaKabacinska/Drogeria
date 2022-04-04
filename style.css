@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Sansita+Swashed:wght@300;400;600&display=swap");
 /* font-family: 'Dancing Script', cursive;
 font-family: 'Sansita Swashed', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Hind+Siliguri:wght@300;400&family=Sansita+Swashed:wght@300;400;600&display=swap");
 html {
   box-sizing: border-box; }
 
@@ -13,8 +14,9 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Sansita Swashed";
-  background-color: #f2e9e4;
-  color: #22223b; }
+  font-weight: 100;
+  background-color: #14213d;
+  color: #fca311; }
 
 .navigation {
   margin: 20px;
@@ -53,7 +55,13 @@ li {
     width: 30%; }
     .menu__item .basket {
       margin-right: 2%;
-      margin-left: auto; }
+      margin-left: auto;
+      height: 10px;
+      text-align: center; }
+      .menu__item .basket__summary {
+        font-family: "Hind Siliguri", sans-serif;
+        font-size: 20px;
+        text-align: center; }
   .menu__top {
     position: absolute;
     margin: 10px;
@@ -119,7 +127,7 @@ ul {
       width: 20px;
       margin: 20px auto;
       font-size: 40px;
-      color: black;
+      color: #fca311;
       text-align: center;
       text-transform: uppercase;
       display: none;
@@ -127,7 +135,7 @@ ul {
       .wybor__item--heading--open {
         display: block; }
   .wybor__item:hover {
-    color: #f2e9e4;
+    color: #e5e5e5;
     opacity: 0.5; }
 
 .img__home {
@@ -139,10 +147,10 @@ ul {
 
 a {
   text-decoration: none;
-  color: #22223b; }
+  color: #fca311; }
 
 a:hover {
-  color: white; }
+  color: #e5e5e5; }
 
 .footer {
   display: flex;
@@ -159,6 +167,11 @@ a:hover {
     .firma__heading__lista__kontakt {
       display: block;
       font-size: 20px; }
+
+.kontakt__li {
+  height: 20px;
+  text-align: center;
+  line-height: 20px; }
 
 .fa-square-phone {
   font-size: 50px;
@@ -216,7 +229,6 @@ label {
   border-radius: 10px; }
 
 .wrapper {
-  background-color: #ffffff;
   width: 100vw;
   height: 100%; }
   .wrapper__heading {
@@ -248,7 +260,7 @@ label {
     border: 2px solid black;
     position: absolute;
     font-family: arial;
-    background-color: #f2e9e4;
+    background-color: #fca311;
     cursor: pointer;
     margin-top: 320px;
     width: 10%;
@@ -257,7 +269,7 @@ label {
     border-radius: 30px;
     text-transform: uppercase; }
     .produkty__btn:hover {
-      background-color: #ffffff; }
+      background-color: #e5e5e5; }
 
 .cosmetic__heading {
   text-align: center;
@@ -294,16 +306,17 @@ label {
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: #f2e9e4; }
+    background-color: #14213d; }
   .hamburger {
     position: absolute;
     display: block;
     font-size: 40px;
-    right: 26px;
+    right: 120px;
     top: 16px;
     background-color: transparent;
     border-radius: 40%;
-    border: none; }
+    border: none;
+    color: #fca311; }
   main {
     margin: 80px auto 0; }
   .firma__kontakt {
