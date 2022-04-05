@@ -10,10 +10,12 @@ hamburger.addEventListener("click", () => {
 const wyborItems = document.querySelectorAll("div.wybor__item");
 wyborItems.forEach((wyborItem) => {
   wyborItem.addEventListener("mouseenter", (e) => {
+    console.log("ENTER");
     let heading = e.target.querySelector(".wybor__item--heading");
     heading.classList.toggle("wybor__item--heading--open");
   });
   wyborItem.addEventListener("mouseleave", (e) => {
+    console.log("LEAVE");
     let heading = e.target.querySelector(".wybor__item--heading");
     heading.classList.toggle("wybor__item--heading--open");
   });
