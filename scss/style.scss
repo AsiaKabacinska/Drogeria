@@ -628,4 +628,20 @@ label {
     display: block;
     margin-top: 90%;
   }
+  .produkty {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+    &__item {
+      width: 80%;
+      margin-bottom: 30px;
+
+      &--image {
+        width: 100%;
+      }
+    }
+  }
+  
+
 }

@@ -462,4 +462,13 @@ label {
     margin: 20px; }
   .footer {
     display: block;
-    margin-top: 90%; } }
+    margin-top: 90%; }
+  .produkty {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap; }
+    .produkty__item {
+      width: 80%;
+      margin-bottom: 30px; }
+      .produkty__item--image {
+        width: 100%; } }
