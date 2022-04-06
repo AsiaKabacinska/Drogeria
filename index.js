@@ -28,7 +28,7 @@ drogeria.addEventListener("click", () => {
 
 //koszyk
 
-const ceny = document.getElementsByClassName("produkty__btn");
+const ceny = document.getElementsByClassName("produkty__item__btn");
 const koszyk = document.getElementById("koszyk");
 let ogolnaCena = 0;
 let item = 0;

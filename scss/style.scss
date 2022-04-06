@@ -244,13 +244,21 @@ ul {
   text-align: center;
   display: block;
 }
-
-.img__home {
-  display: inline-block;
-  width: 500px;
-  margin: 10px auto;
-  border-radius: 15px;
-  cursor: pointer;
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  &__img {
+    // display: inline-block;
+    width: 30%;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+    // margin: 5px auto;
+  }
 }
 
 a {
@@ -572,7 +580,7 @@ label {
 
     &__item {
       width: 40%;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
 
       &--image {
         width: 100%;
