@@ -571,3 +571,61 @@ label {
     font-weight: 500;
   }
 }
+@media (max-width: 412px) {
+  .wybor {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    &__item {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+      border-radius: 10px;
+      margin: 0;
+      &--img {
+        width: 100%;
+        border-radius: inherit;
+      }
+      &--heading {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        width: 20px;
+        // margin: 20px auto;
+        font-size: 40px;
+        color: #fca311;
+        text-align: center;
+        text-transform: uppercase;
+        display: none;
+        z-index: 3;
+
+        &--open {
+          display: block;
+        }
+      }
+    }
+  }
+  .form {
+    display: block;
+    width: 100%;
+    margin: 0;
+    &__wlasciwy {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  label,
+  textarea {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .footer {
+    display: block;
+    margin-top: 90%;
+  }
+}
