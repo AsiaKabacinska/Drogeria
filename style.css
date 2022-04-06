@@ -320,6 +320,33 @@ label {
     max-width: 100%;
     display: block;
     box-sizing: border-box; }
+  .wybor {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box; }
+    .wybor__item {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+      border-radius: 10px;
+      margin: 0; }
+      .wybor__item--img {
+        width: 100%;
+        border-radius: inherit; }
+      .wybor__item--heading {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        width: 20px;
+        margin: 20px auto;
+        font-size: 40px;
+        color: #fca311;
+        text-align: center;
+        text-transform: uppercase;
+        display: none;
+        z-index: 3; }
+        .wybor__item--heading--open {
+          display: block; }
   .menu__top {
     width: 100%;
     position: absolute;
@@ -471,4 +498,6 @@ label {
       width: 80%;
       margin-bottom: 30px; }
       .produkty__item--image {
-        width: 100%; } }
+        width: 100%; }
+  .kontakt__li {
+    margin-bottom: 20px; } }
