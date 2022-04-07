@@ -23,7 +23,7 @@ wyborItems.forEach((wyborItem) => {
 
 const drogeria = document.querySelector(".heading__home");
 drogeria.addEventListener("click", () => {
-  window.location.pathname = "index.html";
+  window.location.pathname = "glownaStrona.html";
 });
 
 //koszyk
