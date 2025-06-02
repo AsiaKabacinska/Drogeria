@@ -4,6 +4,8 @@
 font-family: 'Sansita Swashed', cursive; */
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Hind+Siliguri:wght@300;400&family=Sansita+Swashed:wght@300;400;600&display=swap");
 
+@import "../../node_modules/normalize.css/normalize.css";
+
 html {
   box-sizing: border-box;
 }

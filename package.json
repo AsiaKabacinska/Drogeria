@@ -1,7 +1,6 @@
 {
-  "name": "stronadopracy",
+  "name": "Drogeria",
   "version": "1.0.0",
-  "main": "index.js",
   "private": true,
   "scripts": {
     "start": "parcel src/index.html",
@@ -20,11 +19,14 @@
   },
   "homepage": "https://github.com/AsiaKabacinska/Drogeria#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.0.0"
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "@parcel/transformer-sass": "^2.15.1",
+    "normalize.css": "^8.0.1"
   },
   "keywords": [],
   "description": "",
   "devDependencies": {
+    "parcel": "^2.15.2",
     "sass": "^1.89.1"
   }
 }
