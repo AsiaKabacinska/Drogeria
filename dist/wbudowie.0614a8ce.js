@@ -160,11 +160,11 @@
       });
     }
   }
-})({"ijGmh":[function(require,module,exports,__globalThis) {
+})({"2Et2Y":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 60724;
+var HMR_SERVER_PORT = 56736;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
@@ -668,6 +668,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"2JDXD":[function(require,module,exports,__globalThis) {
 
-},{}]},["ijGmh","2JDXD"], "2JDXD", "parcelRequire6108", {})
+},{}]},["2Et2Y","2JDXD"], "2JDXD", "parcelRequire6108", {})
 
 //# sourceMappingURL=wbudowie.0614a8ce.js.map
