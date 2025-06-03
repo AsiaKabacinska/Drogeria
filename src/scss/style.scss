@@ -47,6 +47,7 @@ body {
 
   &__heading-wrapper {
     font-family: "Dancing Script", cursive;
+    letter-spacing: 2px;
   }
   &__input-wrapper {
     display: flex;
@@ -57,14 +58,54 @@ body {
 
     &-input {
       width: 200px;
+      height: 44px;
+      letter-spacing: 2px;
       padding: 10px 12px;
-      border-radius: 8px;
+      border-radius: 2px;
       border: 1px solid #ccc;
       font-size: 16px;
+      border: 1px solid black;
+      box-sizing: border-box;
+    }
+  }
+  &__searching-btn {
+    height: 44px;
+    min-width: 44px;
+    font-size: 22px;
+    padding: 0 12px;
+    border-radius: 2px;
+    border: 1px solid black;
+    background: $orange;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  &__searching-btn:hover {
+    background: darken($orange, 10%);
+  }
+  &__bascket-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
+
+    &-icon {
+      order: 1;
+      margin-right: 8px;
+      font-size: 30px;
+    }
+    .menu__basket__summary {
+      order: 2;
     }
   }
 
-  
+  &-icon {
+    z-index: 111;
+  }
 }
 
 .navigation {
