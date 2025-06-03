@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Sansita+Swashed:wght@300;400;600&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Hind+Siliguri:wght@300;400&family=Sansita+Swashed:wght@300;400;600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   -webkit-text-size-adjust: 100%;
@@ -197,9 +198,10 @@ html {
 
 body {
   box-sizing: border-box;
-  color: #fca311;
-  background-color: #14213d;
-  font-family: Sansita Swashed;
+  color: #0d1b2a;
+  background: #fff;
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
   font-weight: 100;
 }
 
@@ -363,7 +365,7 @@ li {
 }
 
 .makeUp--heading {
-  color: #000;
+  color: #14213d;
   text-align: center;
   text-transform: uppercase;
   z-index: 3;

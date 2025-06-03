@@ -6,6 +6,17 @@ font-family: 'Sansita Swashed', cursive; */
 
 @import "../../node_modules/normalize.css/normalize.css";
 
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+$navy: #14213d;
+$orange: #fca311;
+$gray: #e0e1dd;
+$white: #ffffff;
+$softBlack: #0d1b2a;
+$softBlackGradient: #0d1b2a40;
+
 html {
   box-sizing: border-box;
 }
@@ -17,10 +28,12 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: "Sansita Swashed";
   font-weight: 100;
-  background-color: #14213d;
-  color: #fca311;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  background: $white;
+
+  color: $softBlack;
 }
 .navigation {
   margin: 20px;
@@ -221,7 +234,7 @@ ul {
   width: 20px;
   margin: 20px auto;
   font-size: 40px;
-  color: black;
+  color: #14213d;
   text-align: center;
   text-transform: uppercase;
   display: none;
